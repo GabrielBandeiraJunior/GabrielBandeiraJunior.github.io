@@ -1,0 +1,182 @@
+.grid3 {
+  background-color: rgb(26, 26, 26);
+  /*box-shadow: deslocamento-horizontal deslocamento-vertical desfoque extensão cor;*/
+  margin: 0;
+  width: 100%;
+  height: 50rem;
+}
+
+.margem-grid3 {
+  padding: 3rem;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.div-titulo-formacao {
+  margin: 0;
+  align-self: start;
+  opacity: 16%;
+  width: 30rem;
+}
+
+.titulo-formacao {
+  position: relative;
+  word-break: break-all;
+  display: grid;
+  font-size: 8rem;
+  text-align: left;
+  max-width: 21rem;
+  justify-self: start;
+  align-self: start;
+  padding-left: 2.7rem;
+  color: gray;
+}
+
+.texto-formacao h1 {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: lighter;
+}
+
+
+.caixas-formacoes {
+  display: flex;
+  justify-items: start;
+}
+
+.detalhe-item-formacoes {
+  position: relative;
+  background-image: linear-gradient(to top, rgb(0, 128, 0), yellow);
+  height: 1.5rem;
+  width: 0.3rem;
+  top: 4.5rem;
+  justify-items: left;
+}
+
+.faculdade {
+  flex: 1;
+  /* background: #000000; */
+  display: grid;
+  padding: 20px;
+  border-radius: 4px;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.formacao {
+  position: relative;
+  height: 10rem;
+  background-color: rgb(0, 0, 0);
+  margin-right: 1rem;
+  padding: 0;
+  display: grid;
+  /* display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px; */
+}
+
+.faculdade-curso {
+  color: white;
+  align-self: start;
+  /* height:5rem; */
+}
+
+.faculdade-curso::before {}
+
+.faculdade-tipo {
+  color: rgb(160, 160, 160);
+}
+
+.faculdade-instituicao {
+  display: grid;
+  color: rgb(160, 160, 160);
+  align-self: end;
+}
+
+.escola {
+  display: flex;
+  align-self: end;
+}
+
+.formacao li {
+  list-style: none;
+  justify-items: left;
+  flex-wrap: wrap;
+  width: 9rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nivel {
+  padding-top: 5px;
+}
+
+.cursos-idiomas h3 {
+  font-size: 1rem;
+  color: gray;
+}
+
+.cursos-idiomas span {
+  color: gray;
+}
+
+.cursos-idiomas p {
+  color: white;
+}
+
+.itens-cursos {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.itens-cursos p {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  display: flex;
+  grid-column: 1
+}
+
+.itens-cursos span {
+  font-size: 1.3rem;
+  margin: 1rem;
+  font-weight: lighter;
+  justify-self: end;
+}
+
+.img-idiomas {
+  position: relative;
+  justify-self: right;
+  top: 30rem;
+}
+
+.itens-idiomas span {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.itens-idiomas p {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.itens-idiomas h3 {
+  display: flex;
+  justify-self: left;
+}
+
+.itens-idiomas h3::before {
+  position: relative;
+  content: "";
+  background-image: url("./img/idiomas.svg");
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 25px;
+  align-self: center;
+  left: -1rem;
+}
